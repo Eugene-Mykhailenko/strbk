@@ -1,0 +1,144 @@
+@import '../../assets/styles/abstracts/variables';
+@import '../../assets/styles/components/spinner';
+// Buttons
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 15px;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+  font-weight: bold;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  outline: none;
+
+  &::before,
+  &::after {
+    content: '';
+    display: inline-block;
+  }
+
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  &-main {
+    border: 1px solid var(--color_1);
+    color: var(--color_3);
+    background-color: var(--color_1);
+
+    &.loading {
+      &::before {
+        background-color: var(--color_9);
+      }
+    }
+  }
+
+  &-primary {
+    border: 1px solid var(--color_12);
+    color: var(--color_9);
+    background-color: var(--color_12);
+  }
+
+  &-secondary {
+    border: 1px solid var(--color_11);
+    color: var(--color_9);
+    background-color: var(--color_11);
+  }
+
+  &-cancel {
+    border: 1px solid var(--color_7);
+    color: var(--color_5);
+    background-color: var(--color_7);
+  }
+
+  &-default {
+    border: 1px solid var(--color_7);
+    color: var(--color_6);
+    background-color: var(--color_9);
+  }
+
+  &-simple {
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    color: var(--color_3);
+    background-color: transparent;
+
+    .btn-icon {
+      margin: 0 5px;
+    }
+  }
+
+  //size
+  &-sm {
+    height: 32px;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+  }
+
+  //disabled
+  &.disabled,
+  &[disabled] {
+    border-color: var(--color_13);
+    color: var(--color_6);
+    background-color: var(--color_13);
+    cursor: default;
+
+    &.is-loading {
+      &::before {
+        background-color: var(--color_1);
+      }
+    }
+  }
+
+  &-block {
+    display: flex;
+    width: 100%;
+
+    + .btn {
+      margin-top: 5px;
+    }
+  }
+
+  &.is-loading {
+    @extend .spinner;
+
+    color: transparent;
+
+    &.btn-main {
+      &::before {
+        background-color: var(--color_9);
+      }
+    }
+  }
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+
+  .btn + .btn {
+    margin-top: 0;
+    margin-left: 5px;
+  }
+
+  + .btn-row {
+    margin-top: 5px;
+  }
+}

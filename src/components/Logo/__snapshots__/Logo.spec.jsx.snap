@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should be with imageUrl 1`] = `
+<a
+  className="logo"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <img
+    alt=""
+    src="https://air.parimatch.com/img/logos/pm-logo.svg"
+  />
+</a>
+`;
+
+exports[`Logo should be with link 1`] = `
+<a
+  className="logo"
+  href="https://air.parimatch.com/"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <img
+    alt=""
+  />
+</a>
+`;

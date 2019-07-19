@@ -1,0 +1,48 @@
+.spinner {
+  position: relative;
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: -4px 2px 0;
+    border-radius: 50%;
+    background-color: var(--color_3);
+    animation: spinneranim 0.9s ease alternate infinite;
+  }
+
+  &::before {
+    margin-left: -8px;
+    background-color: var(--color_1);
+    animation-delay: 0.18s;
+  }
+
+  &::after {
+    margin-left: 8px;
+    color: transparent !important;
+    background-color: var(--color_3);
+    animation-delay: 0.54s;
+  }
+}
+
+@keyframes spinneranim {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes show {
+  0%,
+  100% {
+    opacity: 1;
+  }
+}

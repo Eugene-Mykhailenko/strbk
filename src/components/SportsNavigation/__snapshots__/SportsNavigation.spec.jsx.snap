@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SportsNavigation should handle click event 1`] = `
+<SportsNavigation
+  items={
+    Array [
+      Object {
+        "icon": "SI_Soccer",
+        "id": "soccer",
+        "title": "Soccer",
+      },
+      Object {
+        "icon": "SI_Basketball",
+        "id": "basketball",
+        "title": "Basketball",
+      },
+      Object {
+        "icon": "SI_Tennis",
+        "id": "tennis",
+        "title": "Tennis",
+      },
+      Object {
+        "icon": "SI_IceHockey",
+        "id": "hockey",
+        "title": "Hockey",
+      },
+    ]
+  }
+  onClick={[MockFunction]}
+>
+  <div
+    className="items"
+  >
+    <a
+      className="item"
+      key="soccer"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderColor": "var(--sportСolor_undefined)",
+        }
+      }
+    >
+      <Icon
+        className=""
+        fill="currentColor"
+        glyph="SI_Soccer"
+        height={24}
+        width={32}
+      >
+        <svg
+          className="icon"
+          fill="currentColor"
+          height={24}
+          width={32}
+        >
+          <use
+            xlinkHref="#SI_Soccer"
+          />
+        </svg>
+      </Icon>
+      <span
+        className="title"
+      >
+        Soccer
+      </span>
+    </a>
+    <a
+      className="item"
+      key="basketball"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderColor": "var(--sportСolor_undefined)",
+        }
+      }
+    >
+      <Icon
+        className=""
+        fill="currentColor"
+        glyph="SI_Basketball"
+        height={24}
+        width={32}
+      >
+        <svg
+          className="icon"
+          fill="currentColor"
+          height={24}
+          width={32}
+        >
+          <use
+            xlinkHref="#SI_Basketball"
+          />
+        </svg>
+      </Icon>
+      <span
+        className="title"
+      >
+        Basketball
+      </span>
+    </a>
+    <a
+      className="item"
+      key="tennis"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderColor": "var(--sportСolor_undefined)",
+        }
+      }
+    >
+      <Icon
+        className=""
+        fill="currentColor"
+        glyph="SI_Tennis"
+        height={24}
+        width={32}
+      >
+        <svg
+          className="icon"
+          fill="currentColor"
+          height={24}
+          width={32}
+        >
+          <use
+            xlinkHref="#SI_Tennis"
+          />
+        </svg>
+      </Icon>
+      <span
+        className="title"
+      >
+        Tennis
+      </span>
+    </a>
+    <a
+      className="item"
+      key="hockey"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderColor": "var(--sportСolor_undefined)",
+        }
+      }
+    >
+      <Icon
+        className=""
+        fill="currentColor"
+        glyph="SI_IceHockey"
+        height={24}
+        width={32}
+      >
+        <svg
+          className="icon"
+          fill="currentColor"
+          height={24}
+          width={32}
+        >
+          <use
+            xlinkHref="#SI_IceHockey"
+          />
+        </svg>
+      </Icon>
+      <span
+        className="title"
+      >
+        Hockey
+      </span>
+    </a>
+  </div>
+</SportsNavigation>
+`;
+
+exports[`SportsNavigation should highlight active item 1`] = `
+<div
+  className="items"
+>
+  <a
+    className="item active"
+    key="soccer"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_soccer)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Soccer"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Soccer
+    </span>
+  </a>
+  <a
+    className="item"
+    key="basketball"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_soccer)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Basketball"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Basketball
+    </span>
+  </a>
+  <a
+    className="item"
+    key="tennis"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_soccer)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Tennis"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Tennis
+    </span>
+  </a>
+  <a
+    className="item"
+    key="hockey"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_soccer)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_IceHockey"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Hockey
+    </span>
+  </a>
+</div>
+`;
+
+exports[`SportsNavigation should pass proper configuration for items 1`] = `
+<div
+  className="items"
+>
+  <a
+    className="item"
+    key="soccer"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Soccer"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Soccer
+    </span>
+  </a>
+  <a
+    className="item"
+    key="basketball"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Basketball"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Basketball
+    </span>
+  </a>
+  <a
+    className="item"
+    key="tennis"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Tennis"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Tennis
+    </span>
+  </a>
+  <a
+    className="item"
+    key="hockey"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_IceHockey"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Hockey
+    </span>
+  </a>
+</div>
+`;
+
+exports[`SportsNavigation should render items defined in the provided config 1`] = `
+<div
+  className="items"
+>
+  <a
+    className="item"
+    key="soccer"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Soccer"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Soccer
+    </span>
+  </a>
+  <a
+    className="item"
+    key="basketball"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Basketball"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Basketball
+    </span>
+  </a>
+  <a
+    className="item"
+    key="tennis"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_Tennis"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Tennis
+    </span>
+  </a>
+  <a
+    className="item"
+    key="hockey"
+    onClick={[Function]}
+    style={
+      Object {
+        "borderColor": "var(--sportСolor_undefined)",
+      }
+    }
+  >
+    <Icon
+      className=""
+      fill="currentColor"
+      glyph="SI_IceHockey"
+      height={24}
+      width={32}
+    />
+    <span
+      className="title"
+    >
+      Hockey
+    </span>
+  </a>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should be able to indicate fill attribute 1`] = `
+<svg
+  className="icon"
+  fill="currentColor"
+  height={14}
+  width={14}
+>
+  <use
+    xlinkHref="#UII_Bonuses"
+  />
+</svg>
+`;
+
+exports[`Icon should be able to indicate xlinkHref attribute 1`] = `
+<svg
+  className="icon"
+  fill="currentColor"
+  height={14}
+  width={14}
+>
+  <use
+    xlinkHref="#UII_Bonuses"
+  />
+</svg>
+`;

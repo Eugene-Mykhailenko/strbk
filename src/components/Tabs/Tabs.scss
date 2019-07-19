@@ -1,0 +1,35 @@
+@import '../../assets/styles/abstracts/variables';
+
+.tabs {
+  display: flex;
+  white-space: nowrap;
+  background-color: var(--color_9);
+
+  .tab {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 13px 10px;
+    border-bottom: 2px solid var(--color_8);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    color: var(--color_6);
+    transition: $transitionColor, $transitionBorderColor;
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 2px solid var(--color_1);
+      color: var(--color_3);
+    }
+  }
+
+  &.wide {
+    .tab {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+    }
+  }
+}

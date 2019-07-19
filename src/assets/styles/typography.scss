@@ -1,0 +1,105 @@
+/* stylelint-disable unit-no-unknown */
+@import 'abstracts/variables';
+
+/* cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'),
+    url('../fonts/RobotoCondensed-Light.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+  unicode-range: U + 0400 -045f, U + 0490 -0491, U + 04b0-04b1, U + 2116;
+}
+
+/* latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'),
+    url('../fonts/RobotoCondensed-Light.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+  unicode-range: U + 0000 -00ff, U + 0131, U + 0152 -0153, U + 02c6, U + 02da,
+    U + 02dc, U + 2000 -206f, U + 2074, U + 20ac, U + 2212, U + 2215, U + E0FF,
+    U + EFFD, U + F000;
+}
+
+/* cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+    url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+  unicode-range: U + 0400 -045f, U + 0490 -0491, U + 04b0-04b1, U + 2116;
+}
+
+/* latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+    url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+  unicode-range: U + 0000 -00ff, U + 0131, U + 0152 -0153, U + 02c6, U + 02da,
+    U + 02dc, U + 2000 -206f, U + 2074, U + 20ac, U + 2212, U + 2215, U + E0FF,
+    U + EFFD, U + F000;
+}
+
+/* cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+    url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  unicode-range: U + 0400 -045f, U + 0490 -0491, U + 04b0-04b1, U + 2116;
+}
+
+/* latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+    url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+  unicode-range: U + 0000 -00ff, U + 0131, U + 0152 -0153, U + 02c6, U + 02da,
+    U + 02dc, U + 2000 -206f, U + 2074, U + 20ac, U + 2212, U + 2215, U + E0FF,
+    U + EFFD, U + F000;
+}
+
+@font-face {
+  font-family: 'DejaVuSans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/DejaVuSansCondensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DejaVuSans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/DejaVuSansCondensed-Bold.ttf') format('truetype');
+}
+
+html,
+body {
+  font-family: $fontPrimary;
+  color: var(--color_3);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}

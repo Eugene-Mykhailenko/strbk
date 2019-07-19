@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be able to render in a disabled state 1`] = `
+<button
+  className="btn btn-main disabled"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`Button should be able to render provider icon 1`] = `
+<button
+  className="btn btn-main"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <Icon
+    className="btn-icon"
+    fill="currentColor"
+    glyph="UII_BurgerMenu"
+    height={20}
+    width={20}
+  />
+</button>
+`;
+
+exports[`Button should be of button type by default 1`] = `
+<button
+  className="btn btn-main"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`Button should handle click event 1`] = `
+<Button
+  block={false}
+  disabled={false}
+  icon={null}
+  iconSize={20}
+  intent="main"
+  isLoading={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <button
+    className="btn btn-main"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;
+
+exports[`Button should not handle click in a disabled state 1`] = `
+<Button
+  block={false}
+  disabled={true}
+  icon={null}
+  iconSize={20}
+  intent="main"
+  isLoading={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <button
+    className="btn btn-main disabled"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  />
+</Button>
+`;

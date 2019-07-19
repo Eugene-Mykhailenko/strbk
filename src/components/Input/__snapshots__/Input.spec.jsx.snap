@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should add correct styles on focus 1`] = `
+<div
+  className="form-group has-focus is-password-type"
+>
+  <input
+    className="form-control has-focus"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    <Icon
+      className="icon"
+      fill="currentColor"
+      glyph="UII_EyeSlash"
+      height={24}
+      width={24}
+    />
+  </button>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should be able to render disabled state 1`] = `
+<div
+  className="form-group is-disabled"
+>
+  <input
+    className="form-control"
+    disabled={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should be able to render error message 1`] = `
+<div
+  className="form-group has-error"
+>
+  <input
+    className="form-control has-error"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={true}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    >
+      Error Text exemple
+    </div>
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should be able to render error state 1`] = `
+<div
+  className="form-group has-error"
+>
+  <input
+    className="form-control has-error"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={true}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should be able to render input of password type 1`] = `
+<div
+  className="form-group is-password-type"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    <Icon
+      className="icon"
+      fill="currentColor"
+      glyph="UII_EyeSlash"
+      height={24}
+      width={24}
+    />
+  </button>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should be able to render required state 1`] = `
+<div
+  className="form-group is-required"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should disabled focus event 1`] = `
+<div
+  className="form-group is-password-type"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    <Icon
+      className="icon"
+      fill="currentColor"
+      glyph="UII_EyeSlash"
+      height={24}
+      width={24}
+    />
+  </button>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should not trigger onChange handler in a disabled state 1`] = `
+<div
+  className="form-group is-disabled"
+>
+  <input
+    className="form-control"
+    disabled={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should render floating label 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="label"
+  >
+    Label
+  </label>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should render input of text type by default 1`] = `
+<div
+  className="form-group"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should render toggle password button for input of password type 1`] = `
+<div
+  className="form-group is-password-type"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    <Icon
+      className="icon"
+      fill="currentColor"
+      glyph="UII_EyeSlash"
+      height={24}
+      width={24}
+    />
+  </button>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Input should trigger onChange handler 1`] = `
+<div
+  className="form-group"
+>
+  <input
+    className="form-control"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;

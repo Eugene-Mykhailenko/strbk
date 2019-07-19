@@ -1,0 +1,202 @@
+@import '../abstracts/variables';
+
+.form-group {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  bottom: 0;
+  z-index: 2;
+  margin: auto;
+  font-size: 10px;
+  color: var(--color_6);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.form-control {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 22px 16px 7px 0;
+  border: none;
+  border-bottom: 1px solid var(--color_13);
+  border-radius: 0;
+  font-family: $fontPrimary;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: inherit;
+  background-color: var(--color_9);
+  transition: $transitionBorderColor, $transitionColor;
+  cursor: pointer;
+
+  &:disabled {
+    border-color: var(--color_13);
+    color: var(--color_13);
+    cursor: default;
+
+    + .arrow {
+      color: var(--color_13);
+    }
+  }
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color_6);
+  transform: translateY(15px) scale(1);
+  transform-origin: left;
+  transition: $transitionColor, transform $transitionDelay ease;
+}
+
+.has-focus {
+  border-color: var(--color_1);
+
+  .label {
+    color: var(--color_1);
+    transform: translateY(0) scale(0.8);
+  }
+}
+
+.has-error {
+  border-color: var(--color_10);
+
+  .label {
+    color: var(--color_10);
+  }
+
+  select {
+    border-bottom-color: var(--color_10);
+  }
+}
+
+.is-required {
+  .label {
+    &::before {
+      content: '*';
+      position: absolute;
+      top: 0;
+      right: -10px;
+      font-size: 14px;
+      color: var(--color_1);
+    }
+  }
+}
+
+.is-disabled {
+  .label {
+    color: var(--color_13);
+  }
+}
+
+.is-password-type {
+  .form-control {
+    padding-right: 44px;
+  }
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 44px;
+  height: 47px;
+  border: none;
+  color: var(--color_7);
+  background-color: transparent;
+  transition: $transitionColor;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color_1);
+  }
+}
+
+.custom-select {
+  position: relative;
+
+  select {
+    @extend .form-control;
+
+    padding-right: 45px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+.is-default {
+  .custom-select {
+    .arrow {
+      color: inherit;
+    }
+  }
+
+  select {
+    padding: 13px 15px 13px 0;
+    border-bottom: none;
+    font-size: 14px;
+    background-color: transparent;
+  }
+}
+
+.error-text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 300;
+  color: var(--color_10);
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 100%;
+
+  .form-group {
+    width: 100%;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 100px var(--color_9) inset;
+  box-shadow: 0 0 0 100px var(--color_9) inset;
+
+  &:disabled {
+    -webkit-text-fill-color: var(--color_13);
+  }
+}

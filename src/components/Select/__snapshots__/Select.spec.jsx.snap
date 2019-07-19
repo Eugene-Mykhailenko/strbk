@@ -1,0 +1,764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select onChange event should style select 1`] = `
+<div
+  className="form-group has-focus"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should be able to render default state 1`] = `
+<div
+  className="form-group is-default"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+</div>
+`;
+
+exports[`Select should be able to render disabled state 1`] = `
+<div
+  className="form-group is-disabled"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should be able to render error message 1`] = `
+<div
+  className="form-group has-error"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={true}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    >
+      Error Text exemple
+    </div>
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should be able to render error state 1`] = `
+<div
+  className="form-group has-error"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={true}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should be able to render required state 1`] = `
+<div
+  className="form-group is-required"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should not be able to render error message in default select 1`] = `
+<div
+  className="form-group has-error is-default"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+</div>
+`;
+
+exports[`Select should not trigger onChange handler in a disabled state 1`] = `
+<div
+  className="form-group is-disabled"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should render floating label 1`] = `
+<div
+  className="form-group"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <label
+    className="label"
+  >
+    Label
+  </label>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Select should trigger onChange handler 1`] = `
+<div
+  className="form-group has-focus"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="custom-select"
+  >
+    <select
+      disabled={false}
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        key="placeholder"
+        selected={true}
+      />
+      <option
+        key="0"
+        value="1"
+      >
+        1
+      </option>
+      <option
+        key="1"
+        value="2"
+      >
+        2
+      </option>
+      <option
+        key="2"
+        value="3"
+      >
+        3
+      </option>
+      <option
+        key="3"
+        value="4"
+      >
+        4
+      </option>
+      <option
+        key="4"
+        value="5"
+      >
+        5
+      </option>
+    </select>
+    <Icon
+      className="arrow"
+      fill="currentColor"
+      glyph="UII_ChevronDown"
+      height="16"
+      width="16"
+    />
+  </div>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "fade-in-start",
+        "enterActive": "fade-in-end",
+        "exit": "fade-out-start",
+        "exitActive": "fade-out-end",
+      }
+    }
+    in={false}
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="error-text"
+    />
+  </CSSTransition>
+</div>
+`;

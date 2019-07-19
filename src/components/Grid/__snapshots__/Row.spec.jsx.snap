@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row should render provided children 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Row should render with no children by default 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;

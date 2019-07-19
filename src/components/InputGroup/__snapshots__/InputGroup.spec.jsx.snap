@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup should render children 1`] = `
+<div
+  className="input-group"
+>
+  <Input
+    disabled={false}
+    hasError={false}
+    isRequired={false}
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

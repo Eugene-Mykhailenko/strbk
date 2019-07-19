@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should be able to indicate error status 1`] = `
+<label
+  className="label has-error"
+>
+  Lorem
+  :
+</label>
+`;
+
+exports[`Label should be able to indicate focused state 1`] = `
+<label
+  className="label has-focus"
+>
+  Lorem
+  :
+</label>
+`;
+
+exports[`Label should be able to indicate required status 1`] = `
+<label
+  className="label is-required"
+>
+  Lorem
+  :
+</label>
+`;
+
+exports[`Label should render provided text 1`] = `
+<label
+  className="label"
+>
+  Lorem
+  :
+</label>
+`;

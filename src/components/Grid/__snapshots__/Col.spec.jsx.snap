@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col should be able to align itself on X-axis 1`] = `
+<div
+  className="col col-undefined justify-content-start align-items-center position-left"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to align itself on X-axis 2`] = `
+<div
+  className="col col-undefined justify-content-start align-items-center position-right"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to align itself on X-axis 3`] = `
+<div
+  className="col col-undefined justify-content-start align-items-center position-center"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to justify content on X-axis 1`] = `
+<div
+  className="col col-undefined justify-content-center align-items-center position-undefined"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to justify content on X-axis 2`] = `
+<div
+  className="col col-undefined justify-content-end align-items-center position-undefined"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to justify content on Y-axis 1`] = `
+<div
+  className="col col-undefined justify-content-start align-items-start position-undefined"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should be able to justify content on Y-axis 2`] = `
+<div
+  className="col col-undefined justify-content-start align-items-end position-undefined"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should render provided children 1`] = `
+<div
+  className="col col-undefined justify-content-start align-items-center position-undefined"
+>
+  <div
+    className="find-me"
+  >
+    Lorem Ipsum is simply dummy text
+  </div>
+</div>
+`;
+
+exports[`Col should render with no children by default 1`] = `
+<div
+  className="col col-undefined justify-content-start align-items-center position-undefined"
+/>
+`;

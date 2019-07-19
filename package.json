@@ -1,0 +1,91 @@
+{
+  "name": "ui-kit",
+  "version": "1.0.36",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run storybook",
+    "test:custom": "jest",
+    "test:unit": "jest --config=./jest/unit.js",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --config=./jest/unit.js --coverage",
+    "storybook": "start-storybook -p 6006",
+    "clean": "rm build/assets/styles/styles.js build/index.css",
+    "build:storybook": "build-storybook",
+    "lint": "eslint --ext .js,.jsx {src,stories}",
+    "stylelint": "stylelint \"src/**/*.scss\" --syntax scss",
+    "format": "prettier --write \"{src,stories,__{tests,mocks}__}/**/*.{js,jsx}\"",
+    "formatstyles": "prettier-stylelint --write",
+    "lint-staged": "lint-staged",
+    "dist:patch": "npm version patch && npm publish && git push"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test -- --changedSince=master"
+    }
+  },
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "2.2.5",
+    "normalize.css": "8.0.0",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-select": "2.0.0",
+    "react-transition-group": "2.3.1"
+  },
+  "devDependencies": {
+    "@dump247/storybook-state": "1.5.0",
+    "@storybook/addon-actions": "3.4.5",
+    "@storybook/addon-info": "3.4.7",
+    "@storybook/addon-knobs": "3.4.7",
+    "@storybook/addon-links": "3.4.5",
+    "@storybook/addon-storyshots": "3.4.7",
+    "@storybook/addons": "3.4.5",
+    "@storybook/react": "3.4.5",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-runtime": "6.26.0",
+    "clean-css-loader": "1.0.1",
+    "clean-webpack-plugin": "0.1.19",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "enzyme-to-json": "3.3.4",
+    "eslint": "5.0.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-plugin-react": "7.10.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.11",
+    "husky": "1.0.0-rc.9",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "23.1.0",
+    "lint-staged": "7.2.0",
+    "mini-css-extract-plugin": "0.4.1",
+    "node-sass": "4.9.0",
+    "prettier": "1.13.6",
+    "prettier-stylelint": "^0.4.2",
+    "react-test-renderer": "16.4.1",
+    "sass-loader": "7.0.1",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0",
+    "svg-sprite-loader": "3.8.0",
+    "svgo": "1.0.5",
+    "svgo-loader": "2.1.0",
+    "webpack": "4.14.0",
+    "webpack-bundle-analyzer": "2.13.1",
+    "webpack-cli": "3.0.8"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

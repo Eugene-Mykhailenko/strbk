@@ -1,0 +1,28 @@
+@import '../../assets/styles/abstracts/variables';
+
+.label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--color_5);
+
+  &.has-focus {
+    color: var(--color_1);
+  }
+
+  &.has-error {
+    color: var(--color_10);
+  }
+
+  &.is-required {
+    &::before {
+      content: '*';
+      position: absolute;
+      top: 0;
+      right: -10px;
+      font-size: 14px;
+      color: var(--color_1);
+    }
+  }
+}

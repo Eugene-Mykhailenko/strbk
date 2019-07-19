@@ -1,0 +1,11 @@
+// Fonts
+$fontPrimary: 'Roboto Condensed', 'SF Compact Display',
+  'Helvetica Neue Condensed', sans-serif;
+
+//Transitions
+$transitionDelay: 0.3s;
+$transitionColor: color $transitionDelay ease;
+$transitionBorderColor: border-color $transitionDelay ease;
+$transitionBackgroundColor: background-color $transitionDelay ease;
+$transitionTransform: transform $transitionDelay ease;
+

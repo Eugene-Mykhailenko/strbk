@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs should be able to render wide tab 1`] = `
+<div
+  className="tabs wide"
+>
+  <div
+    className="tab"
+    key="1"
+    onClick={[Function]}
+  >
+    Top Matches
+  </div>
+  <div
+    className="tab"
+    key="2"
+    onClick={[Function]}
+  >
+    Soon in LIVE
+  </div>
+  <div
+    className="tab"
+    key="3"
+    onClick={[Function]}
+  >
+    Express
+  </div>
+  <div
+    className="tab"
+    key="4"
+    onClick={[Function]}
+  >
+    Ordinary
+  </div>
+</div>
+`;
+
+exports[`Tabs should handle click event 1`] = `
+<Tabs
+  onClick={[MockFunction]}
+  tabs={
+    Array [
+      Object {
+        "id": 1,
+        "title": "Top Matches",
+      },
+      Object {
+        "id": 2,
+        "title": "Soon in LIVE",
+      },
+      Object {
+        "id": 3,
+        "title": "Express",
+      },
+      Object {
+        "id": 4,
+        "title": "Ordinary",
+      },
+    ]
+  }
+  wide={false}
+>
+  <div
+    className="tabs"
+  >
+    <div
+      className="tab"
+      key="1"
+      onClick={[Function]}
+    >
+      Top Matches
+    </div>
+    <div
+      className="tab"
+      key="2"
+      onClick={[Function]}
+    >
+      Soon in LIVE
+    </div>
+    <div
+      className="tab"
+      key="3"
+      onClick={[Function]}
+    >
+      Express
+    </div>
+    <div
+      className="tab"
+      key="4"
+      onClick={[Function]}
+    >
+      Ordinary
+    </div>
+  </div>
+</Tabs>
+`;
+
+exports[`Tabs should highlight active tab 1`] = `
+<div
+  className="tabs"
+>
+  <div
+    className="tab active"
+    key="1"
+    onClick={[Function]}
+  >
+    Top Matches
+  </div>
+  <div
+    className="tab"
+    key="2"
+    onClick={[Function]}
+  >
+    Soon in LIVE
+  </div>
+  <div
+    className="tab"
+    key="3"
+    onClick={[Function]}
+  >
+    Express
+  </div>
+  <div
+    className="tab"
+    key="4"
+    onClick={[Function]}
+  >
+    Ordinary
+  </div>
+</div>
+`;
+
+exports[`Tabs should render with config 1`] = `
+<div
+  className="tabs"
+>
+  <div
+    className="tab"
+    key="1"
+    onClick={[Function]}
+  >
+    Top Matches
+  </div>
+  <div
+    className="tab"
+    key="2"
+    onClick={[Function]}
+  >
+    Soon in LIVE
+  </div>
+  <div
+    className="tab"
+    key="3"
+    onClick={[Function]}
+  >
+    Express
+  </div>
+  <div
+    className="tab"
+    key="4"
+    onClick={[Function]}
+  >
+    Ordinary
+  </div>
+</div>
+`;
